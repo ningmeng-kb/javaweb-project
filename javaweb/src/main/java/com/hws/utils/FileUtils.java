@@ -8,7 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
-@Component
+//@Component
 @Slf4j
 public class FileUtils {
     public String upload(MultipartFile image) throws IOException {

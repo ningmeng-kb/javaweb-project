@@ -2,3 +2,12 @@
 logging:
   level:
     org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+#git hub图片上传仓库
+githubclub:
+  config:
+    username: ningmeng-kb #用户名
+    token: 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 #token填写在这里
+    depository: image #仓库名
+    message: 图片上传仓库 #描述
+    domain: https://github.com/ningmeng-kb/image.git #cdn加速域名
